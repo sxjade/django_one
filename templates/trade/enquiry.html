@@ -1,0 +1,679 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.totrade.cn/qp/queryPrice.a -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>商品通--领先的工业原材料综合电商平台</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="keywords" content="商品通,工业原料提供平台,商品通--领先的工业原材料综合电商平台,基础化工,通用塑料,铁矿石,化学纤维">
+<meta name="description" content="商品通工业原料缩合电商平台，主要提供包括基础化工,通用塑料,铁矿石,化学纤维原料交易">
+<link rel="shortcut icon" href="{% static 'images/pagetitle.ico' %}" type="image/x-icon" style="height:36px;width:36px">
+<link type="text/css" rel="stylesheet" href="{% static 'css/public.css' %}">
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<script src="{% static 'js/hm.js' %}"></script><script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/jquery-1.9.1.min.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/jquery.timers-1.2.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/jquery.form.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/layer.js' %}">
+</script><link rel="stylesheet" href="{% static 'css/layer.css' %}" id="layui_layer_skinlayercss">
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/WdatePicker.js' %}">
+</script><link href="{% static 'css/WdatePicker.css' %}" rel="stylesheet" type="text/css">
+ 
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/common.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/sptUtility.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/yaya_template.js' %}">
+</script>
+
+<script type="text/javascript">	_ctx='';</script>
+
+
+
+<link type="text/css" rel="stylesheet" id="queryPriceCss" href="{% static 'css/enquiry_ECshop.css' %}">
+
+<meta name="decorator" content="default">
+
+<style type="text/css">#YSF-BTN-HOLDER{position: fixed;max-width:70px;max-height:70px;right: 30px; bottom: 0px; cursor: pointer; overflow: visible; filter: alpha(opacity=100);opacity:1;z-index: 9990} #YSF-BTN-HOLDER:hover{filter: alpha(opacity=95);opacity:.95} #YSF-BTN-HOLDER img{ display: block;overflow: hidden; } #YSF-BTN-CIRCLE{display: none;position: absolute;right: -5px;top: -5px;width: auto;min-width: 12px;height: 20px;padding: 0 4px;background-color: #f00;font-size: 12px;line-height: 20px;color: #fff;text-align: center;white-space: nowrap;font-family: sans-serif;border-radius: 10px;z-index:1;} #YSF-BTN-HOLDER.layer-1 #YSF-BTN-CIRCLE{top: -30px;} #YSF-BTN-HOLDER.layer-2 #YSF-BTN-CIRCLE{top: -30px;} #YSF-BTN-HOLDER.layer-3 #YSF-BTN-CIRCLE{top: -30px;} #YSF-BTN-HOLDER.layer-4 #YSF-BTN-CIRCLE{top: -30px;} #YSF-BTN-HOLDER.layer-5 #YSF-BTN-CIRCLE{top: -30px;} #YSF-BTN-HOLDER.layer-6 #YSF-BTN-CIRCLE{top: -5px;} #YSF-BTN-BUBBLE{display: none;position: absolute;left: -274px;bottom:0px;width: 278px;height: 80px;box-sizing: border-box;padding: 14px 22px;filter: alpha(opacity=100);opacity:1;background: url(https://qiyukf.com/sdk//res/img/sdk/bg_floatMsg2x.png) no-repeat;background:url(https://qiyukf.com/sdk//res/img/sdk/bg_floatMsg.png)9; background-size: 278px 80px; z-index: 1;} #YSF-BTN-HOLDER.layer-1 #YSF-BTN-BUBBLE{bottom:9px;} #YSF-BTN-HOLDER.layer-2 #YSF-BTN-BUBBLE{bottom:9px;} #YSF-BTN-HOLDER.layer-3 #YSF-BTN-BUBBLE{bottom:9px;} #YSF-BTN-HOLDER.layer-4 #YSF-BTN-BUBBLE{bottom:9px;} #YSF-BTN-HOLDER.layer-5 #YSF-BTN-BUBBLE{bottom:9px;} #YSF-BTN-HOLDER.layer-6 #YSF-BTN-BUBBLE{bottom:-6px;} #YSF-BTN-BUBBLE:hover{filter: alpha(opacity=95);opacity:.95} #YSF-BTN-CONTENT{height:45px;padding: 0;white-space: normal;word-break: break-all;text-align: left;font-size: 14px;line-height: 1.6;color: #222;overflow: hidden;z-index: 0;} #YSF-BTN-ARROW{ display: none; } #YSF-BTN-CLOSE{position: absolute; width:15px; height:15px;right: 4px;top: -3px; filter: alpha(opacity=90); opacity:.9; cursor: pointer; background: url(https://qiyukf.com/sdk//res/img/sdk/btn-close.png) no-repeat;z-index: 1} #YSF-BTN-CLOSE:hover{filter: alpha(opacity=100); opacity: 1;} #YSF-PANEL-CORPINFO.ysf-chat-layeropen{ width: 511px; height: 470px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);} #YSF-PANEL-CORPINFO{ position: fixed; bottom: 0px; right: 20px; width: 0; height: 0; z-index: 99999; } #YSF-PANEL-INFO.ysf-chat-layeropen{ width: 311px; height: 470px; filter: alpha(opacity=100);opacity:1; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .15);} #YSF-PANEL-INFO{ position: fixed; bottom: 0px; right: 20px; width: 0px; height: 0px; filter: alpha(opacity=0);opacity:0;z-index: 99999;} #YSF-PANEL-INFO .u-btn{background-color: #62A8EA} #YSF-CUSTOM-ENTRY{background-color: #F96868;} #YSF-CUSTOM-ENTRY-0{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-1{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;border-radius: 14px; box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-2{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;border-radius: 0;box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-3{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;border-radius: 50%;box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-4{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;border-radius: 50%;box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-5{position: relative;bottom: 24px;width:auto;background-color: #62A8EA;border-radius: 5px;box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.25);} #YSF-CUSTOM-ENTRY-6{position: relative;bottom: 0px;width:auto;background-color: #62A8EA;border-radius:5px;border-bottom-left-radius: 0;border-bottom-right-radius: 0;} #YSF-CUSTOM-ENTRY-0 img{max-width: 300px;height:auto;} #YSF-CUSTOM-ENTRY-1 img{width:28px;height:auto;} #YSF-CUSTOM-ENTRY-2 img{width:58px;height:auto;} #YSF-CUSTOM-ENTRY-3 img{width:60px;height:auto;} #YSF-CUSTOM-ENTRY-4 img{width:60px;height:auto;} #YSF-CUSTOM-ENTRY-5 img{width:60px;height:auto;} #YSF-CUSTOM-ENTRY-6 img{width:115px;height:auto;} #YSF-IFRAME-LAYER{ border:0; outline:none; } .ysf-online-invite-mask{z-index:10000;position:fixed;_position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background:#fff;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;} .ysf-online-invite-wrap{z-index:10001;position:fixed;_position:absolute;top:50%;left:50%;width:250px;} .ysf-online-invite{position:relative;top:-50%;left:-50%;cursor:pointer;} .ysf-online-invite img{display:block;width:250px;} .ysf-online-invite .text{position:absolute;top:-11px;left:0;right:0;overflow:hidden;margin: 36px 20px 0 67px;line-height:140%;color:#526069;font-size:14px;font-family:"Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";text-align:left;white-space:normal;word-wrap:break-word;} .ysf-online-invite .close{position:absolute;top:-6px;right:-6px;width:32px;height:32px;background:url(https://qiyukf.com/sdk/res/img/invite-close.png) no-repeat;cursor:pointer;}</style></head>
+
+<body>
+	<div class="container">
+		
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var ctx = "";
+var cas = "http://cas.totrade.cn/";
+var loca="";
+var uuid = "";
+</script>
+
+
+<div class="head_new width_100">
+    <div class="head_new1 width_1200 marginAuto">
+    	<div class="head_left float_left">
+			<a href="http://www.totrade.cn/index.a"><i class="float_left"></i>商品通首页&nbsp;&nbsp;|&nbsp;</a> 
+			<span>您好，欢迎光临商品通！</span>
+			<span id="jq-personTip" class="hide">
+	    		<span class="head_lan">当前您是自由人，升级为企业账户才能进行交易哦！</span>
+				<span class="head_lan head_span jq-upgradeCompany">绑定企业/账户升级</span>
+			</span>
+    	</div>
+    	<ul class="head_right float_right">
+    	   　　
+    	    
+    	    
+    	    	<li class="float_left" jq-mtype="login">登录/注册</li>
+    	    
+    	    
+			<li class="float_left" jq-mtype="about">关于我们</li>
+			<li class="float_left" jq-mtype="rule">商品通规则</li>
+			<li class="float_left jq_sys_notify" jq-mtype="sysNotify" id="jq-sys-notify">
+				<a href="javascript:void(0);">&nbsp;消息&nbsp;</a>
+				<i class="head_right_num hide" id="jq-ntf-nums-tip">0</i>
+				<div class="notify_body">
+				 <i class="white_arrow"></i>
+				 <div class="notify_items_tip" id="jq-uNotify-content">
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+
+
+
+
+
+
+
+<input type="hidden" value="" id="jq-notify-nums">
+
+<ul style="width: 100%">
+  
+</ul>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/layer.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/msgPro.js' %}">
+</script>
+</div>
+				</div>
+			</li>
+			<li class="float_left" jq-mtype="cusService">
+				<i class="msgTip float_left left_icon"></i>
+				<span class="float_left">客服</span>
+			</li>
+			<li class="float_left iphone" jq-mtype="m-app">
+				<i class="homeIphone float_left left_icon m_app_icon"></i>
+				<span class="float_left">移动客户端</span>
+				<i class="erweima"></i>
+			</li>
+    	</ul>
+    </div>
+</div>
+<div class="header width_100 marginB10">
+	<div class="width_1200 marginAuto clearFix">
+		<div class="logo float_left">
+			<img src="{% static 'images/new_logo.png' %}">
+		</div>
+		<div class="float_right head_myspt">
+		    
+			
+			
+			  <a href="http://cas.totrade.cn/cas/login?service=http://www.totrade.cn/user/" class="color_black"><span class="float_right">我的商品通</span>
+				<i class="float_right"></i>
+			  </a>
+			
+			
+		</div>
+		<ul class="head_list float_right">
+			<li class="float_left jq-menu" jq-mtype="home">首页</li>
+			<li class="float_left w80 active jq-selMenu">
+			<span jq-mtype="qp">询价商城</span>
+			<div class="sel_industry jq-qp-menus">
+						<span menu="HG_FT_BY">基础化工</span>
+						<span menu="SL_PE_LD">通用塑料</span>
+						<span menu="GT_TK_PB">铁矿石</span>
+				</div>
+			</li>
+			<li class="float_left w80   jq-selMenu">
+	            <span jq-mtype="zone">商品专区</span>
+				<div class="sel_industry  jq-zone-menus">
+						<span menu="HG">基础化工</span>
+				</div>
+			</li>
+			<li class="float_left jq-menu" jq-mtype="tt"><i><img src="{% static 'images/cusService.gif' %}"></i>通通</li>
+    	</ul>
+	</div>
+</div>
+<!-----导航（TOP） E-----> 	
+
+<script src="{% static 'js/f747798448ab84932e940324087442f7.js' %}" defer="" async=""></script>
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/header.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/websocket_push_msg.js' %}">
+</script>
+
+		<div id="content">
+			
+<div class="midzone_background">
+</div>
+<div class="width_1200 marginAuto new_product" id="jqDiv-condBody">
+	<div class="product_list">
+		<ul class="clearFix">
+				<li class="float_left marginL20">
+					<span>基础化工</span>
+					<i class="down"></i>
+					<div class="product_classify  jq-esubconds" name="productType" et="eReloadPage" level="p0" pl="root">
+						<span val="HG_FT_BY" class="on">基础化工</span>
+						<span val="SL_PE_LD" class="">通用塑料</span>
+						<span val="GT_TK_PB" class="">铁矿石</span>
+					</div>
+				</li>
+				<li class="float_left">
+					<span>品名</span>
+					<i class="down"></i>
+					<div class="product_classify jq-esubconds" name="productType" et="eReloadCondit" level="p00" pl="p0">
+					    <span class="on" val="HG">不限</span>
+					    
+				              <span val="HG_CL_YE">乙二醇</span>
+				    	
+				              <span val="HG_CL_JC">甲醇</span>
+				    	
+				              <span val="HG_CL_EG">二甘醇</span>
+				    	
+				              <span val="HG_FT_BY">苯乙烯</span>
+				    	
+				              <span val="HG_FT_JB">甲苯</span>
+				    	
+				              <span val="HG_FT_R2">溶剂二甲苯</span>
+				    	
+				              <span val="HG_FT_Y2">异构二甲苯</span>
+				    	
+				              <span val="HG_WJ_LH">硫磺</span>
+				    	
+				              <span val="HG_FT_PT">精对苯二甲酸</span>
+				    	
+				              <span val="HG_FT_CB">纯苯</span>
+				    	
+				              <span val="HG_FN_BT">丙酮</span>
+				    	
+				              <span val="HG_FT_HH">混合芳烃</span>
+				    	
+				              <span val="HG_CL_YB">异丙醇</span>
+				    	
+					</div>
+				</li>
+				<li class="float_left">
+					<span class="">贸易方式</span>
+					<i class="down"></i>
+					<div class="product_classify  jq-esubconds" name="tradeMode" level="p000" pl="p00">
+					   <span class="on" val="">不限</span>
+					   
+						<span val="DM">内贸</span>
+						
+						<span val="FO">外贸</span>
+						
+					</div>
+				</li>
+				 
+	   		
+	   		
+	   		 <li class="float_left">
+					<span class="">质量标准</span>
+					<i class="down"></i>
+					<div class="product_classify  jq-esubconds" name="productQuality" level="p000" pl="p00"><span class="on" val="">不限</span><span val="AST1">ASTM D-2827</span><span val="NTV1">国标一级</span></div>
+				</li>
+	   		
+	   		
+	   		
+				<li class="float_left">
+					<span class="">原产地</span>
+					<i class="down"></i>
+					<div class="product_classify jq-esubconds" name="manufacturer" level="p000" pl="p00"><span class="on" val="">不限</span><span val="OPEN">进口（不限）</span><span val="PRC">中国</span><span val="KORJ">韩国或日本</span><span val="KOR">韩国</span><span val="JPN">日本</span><span val="CHNTW">台湾</span><span val="DNY">东南亚</span><span val="INDIA">印度</span><span val="MIDEA">中东</span><span val="USA">美国</span><span val="EUR">欧洲</span></div>
+				</li>
+			  
+				<li class="float_left">
+					<span class="">交货地</span>
+					<i class="down"></i>
+					<div class="product_classify  jq-esubconds" name="deliveryPlace" level="p000" pl="p00"><span class="on" val="">不限</span><span val="CHJS00ZJJY">张家港或江阴</span><span val="CHJS02JY">江阴</span><span val="CHJS01ZJ">张家港</span><span val="CHJS03CZ">常州</span><span val="CHJS08ZJ">镇江</span><span val="CHJS19NJ">南京</span><span val="CHJS05TC">太仓</span><span val="CHJS06CS">常熟</span><span val="CHSH03SH">上海</span><span val="CHZJ01NB">宁波</span><span val="CHJS04JJ">靖江</span><span val="CHHD01ZG">华东主港</span><span val="CHGD01GZ">广州</span><span val="CHGD02ZH">珠海</span><span val="CHGD03DG">东莞</span><span val="CHGD05FY">番禹</span><span val="CHGD04ST">汕头</span><span val="CHGD06MM">茂名</span><span val="CHHN01ZG">华南主港</span><span val="CHFJ01QZ">泉州</span><span val="CHSD07ZB">淄博</span><span val="CHTJ02TJZ">天津</span><span val="CHLN03DLZ">大连</span><span val="CHDB01QT">东北其他</span><span val="JPN001JP">日本</span><span val="KOR001KR">韩国</span><span val="CTW001TW">台湾</span><span val="NAS001NA">东北亚</span><span val="SAS001SA">东南亚</span><span val="MDE001MD">中东</span><span val="USA001US">美国</span><span val="EUR001EU">欧洲</span></div>
+				</li>
+				
+			</ul>
+	</div>
+</div>
+<div class="listingNew width_100">
+<div class="listingNew_tit width_1200 clearFix">
+		<div class="float_left listingNew_tit_l">
+			<a href="javascript:void(0);" class="moren float_left listingNew_tit_a btn-querySort sort_active" sort="">默认<i class="sortDown" style="display:none;"></i></a>
+			<a href="javascript:void(0);" class="sort float_left listingNew_tit_a btn-querySort" sort="productPrice">价格
+			<i></i>
+			</a>
+			<a href="javascript:void(0);" class="publish float_left" onclick="openQuickSend(&#39;&#39;);">
+				<img src="{% static 'images/public.gif' %}">
+			</a>
+		</div>
+		<ul class="clearFix float_right listingNew_tit_ul">
+			<li class="float_left tab_sub li_on" name="tab_default">询价商城</li>
+			<li class="float_left tab_sub" name="tab_myBargin">我的询价</li>
+			<li class="float_left tab_sub" name="tab_commBargin">常用询价</li>
+			<li class="float_left tab_sub" name="tab_manageBargain">议价管理</li>
+			<i class="li_num">0</i>
+		</ul> 
+	</div>
+<div class="width_1200 data-loading" id="data_loading" style="display: none;">
+	<img src="{% static 'images/data-loading.gif' %}">数据加载中...
+</div>
+<div id="qp_content">
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+
+
+
+
+
+
+
+	<input type="hidden" id="myUserId" value=""> 
+<form id="savedSearch">
+	<input type="hidden" name="currentPageNumber" autocomplete="off" id="currentPageNumber" value="1"> 
+	<input type="hidden" name="numberPerPage" autocomplete="off" id="numberPerPage" value="10">
+	<input type="hidden" name="pageCounts" autocomplete="off" id="pageCounts">
+
+</form>
+
+	    <!-----选项卡 E----->
+	<div id="div_qp_content_item">
+	
+	{% if order_list %}
+						    
+		{% for order in order_list %}
+						
+						
+						
+		
+		<div class="width_1200 listingNew_list ">
+		<div class="listingNew_list_top clearFix">
+        <i class="{{ order.getbyorsell }}"></i>
+		<div class="listingNew_list_l float_left">
+			<div class="listingNew_list_l_t clearFix">
+				<p class="float_left">{{ order.product }}</p>
+				<div class="float_left listingNew_level">
+					<span class="bank2 float_left" title="该询价只能中信银行账户成交">中</span>
+				</div>
+				<div class="float_left listingNew_time">
+					<span>挂单时间：</span>
+					<span>{{ order.getday }}</span>
+					<span class="listingNew_timeSpan">{{ order.gettime }}</span>
+				</div>
+				<div class="float_left listingNew_link contact_cusService" product_type="HG_CL_YE">
+					<i><img src="{% static 'images/cusService.gif' %}"></i>
+					<span style="cursor:pointer">联系交易员</span>
+				</div>
+			</div>
+			<ul class="listingNew_list_l_c clearFix">
+				<li class="float_left">
+					<span>单价：</span>
+					<span class="colorcheng">
+                            		￥{{ order.price }}
+                            	/吨
+                      	</span>
+                      	
+                      	<!-- 涨跌幅 -->
+                      	  	<span class="color_down">
+							<i></i>10</span>
+				</li>
+				<li class="float_left li_lang"><span>余量/总量：</span>
+					<span class="li_span">
+					{{ order.getsurplus }}吨/{{ order.putnumb }}吨	
+					</span>
+                 </li>
+				<li class="float_left">
+				    	<span>质量标准：</span>
+						<span>
+						{{ order.quality }}
+						</span>
+				</li>
+				<li class="float_left"><span>产地：</span><span>{{ order.place }}</span></li>
+				<li class="float_left li_lang"><span>付款方式：</span><span class="li_span">{{ order.pay }}</span></li>
+				<li class="float_left"><span>提货方式：</span><span>{{ order.delivmethod }}</span></li>
+				<li class="float_left"><span>定金：</span><span>{{ order.deposit }}%</span></li>
+				<li class="float_left li_lang">
+  							<span class="float_left">交货地：</span>
+                            <span>
+							   		{{ order.delivplace }}
+					   	   </span>
+				    </li>
+				  <li class="listingNew_list_l_b float_left">
+						<i>{{ order.getdeal }}</i>
+					<span onclick="viewContract(&#39;BSI0000097725&#39;,&#39;HG_CL_YE&#39;,&#39;SPTQY0000000553&#39;,&#39;0&#39;,&#39;SPTU0000000626&#39;)" class="a_contact">
+                     	
+                     	电子确认书
+                </span>
+					</li>  
+			</ul>
+		</div>
+		<div class="border_list float_left">
+		</div>
+		<div class="listingNew_list_r float_right">
+			<div class="listingNew_list_r_t">
+				  
+					 
+				   
+				     <span class="span_1">交货期：</span>
+				   
+				  
+				<span class="span_2">  
+					   		{{ order.delvDate }}
+					   
+				   
+			    </span>
+			</div>
+			<div class="listingNew_list_r_c">
+				<span class="span_1">剩余时效：</span>
+				<span class="span_3">
+                        
+                        		仅剩
+                            2
+                           		时
+                            55
+                          		 分
+                        
+                        
+                          </span>
+			</div>
+			<div class="listingNew_list_r_b" ismyrequest="false" submitid="BSI0000097725" expireddate="2:55" uid="SPTU0000000626" curstatus="1" curindex="0" style="">
+		    <!-- 0，过期，1有效 -->
+			
+				
+				
+				 	<a href="javascript:void(0);" class="a_1 btn-trade">成交预览</a>
+					<a href="javascript:void(0);" class="a_2 btn_bargain1To1" uid="SPTU0000000626" onclick="competeOne(this,&#39;BSI0000097725&#39;)">1V1议价</a>
+					<a href="javascript:void(0);" class="a_2 btn_bargainToPub" onclick="beginNego(this,&#39;0&#39;)">公开议价</a>
+				
+				
+			
+			</div>
+		</div>
+		
+		
+		</div>
+		
+		<div class="listingNew_list_bot displayNone">
+			<div class="float_left list_bot_div1">
+                <span class="float_left">价格：</span>
+                <div class="float_left">
+                    <input type="text" class="quoted_input" id="price_0">
+                </div>
+                <i class="float_left">元/吨</i>
+        	</div>
+        	<div class="float_left list_bot_div1">
+                <span class="float_left">数量：</span>
+                <div class="float_left">
+                    <input type="text" class="quoted_input" id="num_0">
+                </div>
+                <i class="float_left">吨</i>
+        	</div>
+        	<div class="float_left list_bot_div1">
+                <span class="float_left">付款方式：</span>
+                <div class="float_left">
+                    <select class="quoted_select" tm="DM" id="payMethod_0">
+                        
+							<option value="CA">现款</option>
+						
+							<option value="AP">承兑汇票</option>
+						
+							<option value="CRBL">90天信用证（B/L）</option>
+						
+							<option value="CR60">60天信用证</option>
+						
+							<option value="CR30">30天信用证</option>
+						
+							<option value="CRIN">即期信用证</option>
+						
+							<option value="NEGO">双方协商</option>
+						
+							<option value="CR">国内信用证</option>
+						
+							<option value="CR30BL">30天信用证（B/L）</option>
+						
+							<option value="CR30DO">30天信用证（D/O）</option>
+						
+							<option value="CR90">90天信用证</option>
+						
+							<option value="CRAI">90天信用证（开证后）</option>
+						
+							<option value="CRD0">90天信用证（D/0）</option>
+						
+							<option value="CRIN1">即期信用证（B/L）</option>
+						
+							<option value="CRIN2">即期信用证（D/O）</option>
+						
+							<option value="T/T">T/T付款</option>
+						
+                    </select>
+                </div>
+        	</div>
+			<div class="list_bot_div2 float_left">
+	        	<span class="float_left">时效：</span>
+	            <select class="aging_select float_left hour" id="hour_0">
+	            <option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select>
+	            <span class="float_left">时</span>
+	            <select class="aging_select float_left minute" id="minute_0">
+	            <option>0</option><option>5</option><option selected="selected">10</option><option>15</option><option>20</option><option>25</option><option>30</option><option>35</option><option>40</option><option>45</option><option>50</option><option>55</option></select>
+	            <span class="float_left">分</span>
+	        </div>
+	        <a href="javascript:;" class="a7 float_left" onclick="quickSend2(this,&#39;BSI0000097725&#39;,&#39;0&#39;,&#39;TT&#39;,&#39;N&#39;)" producttype="HG_CL_YE">发送</a>
+		</div>
+		
+	</div>
+	
+		{% endfor %}
+						    
+	{% endif %}
+		
+		
+		
+		
+		
+		
+
+		
+
+	
+	
+	<!-----分页 S----->
+	<div class="paging align_center color_danhei">
+	    
+	   	
+	       {{ fir_page|safe }}
+	       {{ page_str|safe }}
+	       {{ end_page|safe }}
+	       <!--<span>上一页</span>-->
+	       
+	       
+	       
+	       <!--<a href="javascript:void(0);" onclick="loadByFlag(&#39;&#39;,&#39;2&#39;)">下一页</a>-->
+	       <!--<a href="javascript:void(0);" onclick="loadByFlag(&#39;&#39;,&#39;6767&#39;)">末页</a>-->
+	       
+	       
+	       <span>跳转至</span>
+	       <select onchange="pageChange(this)">
+	       	{% for page in page_list %}
+	       	<option value="{{ page }}" >{{ page }}/{{ all_page }}</option>
+			
+	       	
+			{% endfor %}
+			
+	       </select>
+	       <span>总数:{{ all_page }}</span>
+	</div>
+	<!-----分页 E----->
+	
+		
+</div>
+
+
+<script type="text/javascript">
+$('.listingNew_list_bot select.hour').each(function(i){
+	for(var i =0;i<=12;i++){
+		$(this).append('<option>'+i+'</option>');
+	}
+});
+$('.listingNew_list_bot select.minute').each(function(i){
+	
+	for(var i =0;i<=11;i++){
+		if (i ==2){
+			$(this).append('<option selected="selected">'+(i*5)+'</option>');
+		}else{
+			$(this).append('<option>'+(i*5)+'</option>');
+		}
+	}
+	
+});
+</script>
+</div>
+</div>
+<script>
+var _nogoErrMsg = "您不能与自发的询价进行议价！";
+var _errNotOperationMsg = "个人账户不允许操作，请升级企业账户";
+var _curUserType = "";
+</script>
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/qp_common.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/gdata.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/spt.validate.js' %}">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/queryPrice.js' %}">
+</script>
+
+<input type="hidden" id="supplier_oneZM">
+<input type="hidden" id="supplier_search">
+<!-----页脚 E---->
+
+		</div>
+		
+<!-- 页脚start -->
+<div class="footer_new width_100">
+	<div class="width_100 background_foot1">
+		<div class="width_1200 footNew_top">
+			<div class="logo_l float_left">
+				<img src="{% static 'images/logo-bottom.png' %}">
+			</div>
+			<div class="foot_f float_left">
+				<h1>询价商城</h1>
+				<a href="http://www.totrade.cn/fwd/p/4">商城规则</a> <a href="http://www.totrade.cn/fwd/p/5">询价与匹配</a> <a href="http://www.totrade.cn/fwd/p/6">议价与成交</a> <a href="http://www.totrade.cn/fwd/p/7">交收与验收</a> <a href="javascript:void(0);">采购销售补贴</a>
+			</div>
+			<div class="foot_f float_left">
+				<h1>企业专区</h1>
+				<a href="http://www.totrade.cn/fwd/p/1">专区规则</a> <a href="http://www.totrade.cn/fwd/p/2">供应商管理</a> <a href="http://www.totrade.cn/fwd/p/3">保价补贴</a> <a href="javascript:void(0);">挂单模式</a> <a href="javascript:void(0);">活跃合同</a>
+			</div>
+			<div class="foot_f float_left">
+				<h1>信息中心</h1>
+				<a href="javascript:void(0);">中心规则</a> <a href="http://www.totrade.cn/fwd/p/11">信息服务</a> <a href="http://www.totrade.cn/fwd/p/12">信息费</a> <a href="http://www.totrade.cn/fwd/p/13">发布者责任</a> <a href="http://www.totrade.cn/fwd/p/14">自由撰稿人</a>
+			</div>
+			<div class="foot_f float_left">
+				<h1>资金管理</h1>
+				<a href="http://www.totrade.cn/fwd/p/8">银行结算账户</a> <a href="http://www.totrade.cn/fwd/p/9">履约定金</a> <a href="javascript:;">隔夜收益</a> <a href="javascript:;">通商宝</a> <a href="http://www.totrade.cn/fwd/p/10">投资融</a>
+			</div>
+			<div class="foot_f float_left">
+				<h1>常见问题</h1>
+				<a href="http://www.totrade.cn/fwd/p/15">注册与登录</a> <a href="http://www.totrade.cn/fwd/p/16">账户安全</a> <a href="javascript:void(0);">资金进出</a> <a href="javascript:void(0);">手续费与定金</a> <a href="http://www.totrade.cn/fwd/p/17">移动端</a>
+			</div>
+		</div>
+	</div>
+	<div class="width_100 background_foot2">
+		<div class="width_854">
+			<ul class="ul1 clearFix">
+				<li><a href="{% url 'trade:aboutus' %}">关于我们</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/legal_state/">法律声明</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/contact_us/">联系我们</a></li>
+				<li>|</li>
+				<li><a href="{% url 'trade:recruit' %}">诚聘英才</a></li>
+				<li>&nbsp;&nbsp;佰所仟讯（上海）电子商务有限公司</li>
+				<li><a href="http://www.totrade.cn/qp/queryPrice.a">版权所有</a></li>
+				<li>http://www.totrade.cn&nbsp;&nbsp;沪ICP备14033272号</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?87ef8298e7cddc0d9f3966811dfd4f7f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<!-- 页脚end -->
+
+<!-- 页脚end -->
+	</div>
+	<!-- 左侧菜单栏 start-->
+	<div class="prompt">
+	<div class="erweima_back1">
+		<i class="erweima_back"></i>
+		<p class="erweima_back2"></p>
+	</div>
+	<div class="feedback1">
+		<i class="feedback"></i>
+		<p class="feedback2"></p>
+	</div>
+	<div class="back_under1">
+		<i class="back_under"></i>
+		<p class="back_under2"></p>
+	</div>
+	<!-- 左侧菜单栏  end-->
+</div>
+<script>
+	function showTopBtn() {
+		$(window).scroll(function(e) {
+			if ($(window).scrollTop() != undefined && $(window).scrollTop() > 300)
+				$(".prompt").fadeIn(1000);
+			else
+				$(".prompt").fadeOut(1000);
+		});
+	}
+	function return2Top(){
+        $('body,html').animate({scrollTop:0},500);
+	}
+$(function(){
+	showTopBtn();
+	$('.feedback').click(function(){
+		$(".layer-4").click();
+	});
+	$('.back_under').click(return2Top);
+});
+</script>
+
+<div style="top: 0px; left: 0px; visibility: hidden; position: absolute; width: 1px; height: 1px;"><iframe style="height:0px; width:0px;" src="./询价商城_files/delegate.html"></iframe></div><div class="layer-4" id="YSF-BTN-HOLDER"><div id="YSF-CUSTOM-ENTRY-4"><img src="{% static 'images/4.png' %}"></div><span id="YSF-BTN-CIRCLE"></span><div id="YSF-BTN-BUBBLE"><div id="YSF-BTN-CONTENT"></div><span id="YSF-BTN-ARROW"></span><span id="YSF-BTN-CLOSE"></span></div></div><div id="YSF-PANEL-INFO" class="ysf-chat-layer" data-switch="0"><iframe src="./询价商城_files/iframe.html" id="YSF-IFRAME-LAYER" style="width: 100%; height: 100%;"></iframe></div></body></html>

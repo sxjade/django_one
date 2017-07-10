@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://www.totrade.cn/user/reg/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>商品通--领先的工业原材料综合电商平台</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="shortcut icon" href="http://www.totrade.cn/user/static/images/pagetitle.ico" type="image/x-icon" style="height:36px;width:36px">
+<script src="./用户注册_files/f747798448ab84932e940324087442f7.js.下载" defer="" async=""></script>
+<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/jquery.min.js.下载">
+</script>
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/layer.js.下载">
+</script><link rel="stylesheet" href="./用户注册_files/layer.css" id="layui_layer_skinlayercss">
+
+<link type="text/css" rel="stylesheet" href="./用户注册_files/new_register.css">
+
+<link type="text/css" rel="stylesheet" href="./用户注册_files/style.css">
+
+<script type="text/javascript">
+	var _ctx = '/user';
+	var _cas = "http://cas.totrade.cn/";
+	var _loginUrl = "http://cas.totrade.cn/cas/login?service=http://www.totrade.cn/index/";
+</script>
+
+
+<meta name="decorator" content="register">
+
+<style>
+.mySpt_right_cent{min-height:923px;}
+</style>
+
+</head>
+<body>
+	<!-----页头 S---->
+	<div class="width_100 header">
+		<div class="width_1200 marginAuto clearFix">
+			<div class="float_left">
+				<div class="logo float_left" onclick="window.location.href=&#39;/index/&#39;">
+					<img src="./用户注册_files/new_logo_o.png">
+				</div>
+				<div class="float_left header1"></div>
+				<div class="float_left header2">注册</div>
+			</div>
+			<div class="float_right headerRight">
+				<span class="color_hui">已有账号？</span> <span class="colorlan" onclick="javascript:window.location.href=&#39;http://cas.totrade.cn/cas/login?service=http://www.totrade.cn/index/&#39;">去登录</span>
+			</div>
+		</div>
+	</div>
+	<!-- 内容 -->
+	<div class="main width_100">
+		<div class="width_1200 marginAuto register" id="reg_content">
+	        
+ <form action="http://www.totrade.cn/user/reg/createAcct" id="userRegForm" method="post">
+ <!-----注册界面 S---->	
+	<div class="float_left registerDetail">
+	 	<div class="step">
+	 		<img src="./用户注册_files/first_step.png" alt="">
+	 	</div>
+	 	<div class="stepHint clearFix">
+	 		<span class="float_left span1 color_hei">注册自由人账户</span>
+	 		<span class="float_right span1_2">注册完成</span>
+	 	</div>
+		<div class="list_cont">
+			<div class="clearFix list_cont2 marBottom_20">
+					<input type="text" class="float_left" placeholder="请输入手机号码" id="mobileNumber" name="mobileNumber">
+					<span class="star float_left">＊</span>
+					<span class="msg_o color_hong hint float_left" id="CheckMobileNumber"></span> 
+					<!-- 这个提示仅在不支持placeholder 下使用，功能代替 placehoder 工作 -->
+					<span class="error_hint placeHoderTip hide">请输入手机号码</span>
+				</div> 
+				<div class="clearFix list_cont2 marBottom_20">
+					<input type="text" class="float_left" placeholder="姓名" name="realName" id="realName">
+					<span class="star float_left">＊</span>
+					<span class="color_hong hint float_left" id="CheckRealName"></span>
+					<span class="error_hint placeHoderTip hide">姓名</span>
+				</div>
+				<div class="clearFix list_cont2 marBottom_20">
+					<input class="float_left password" placeholder="请输入登录密码" name="password" autocomplete="off" type="password" id="password" maxlength="16">
+					<span class="star float_left">＊</span>
+					<span class="color_hong hint float_left" id="CheckPassword"></span> 
+					<span class="error_hint placeHoderTip hide">请输入登录密码</span>
+				</div>
+				<div class="clearFix list_cont2 marBottom_20">
+					<input class="float_left password" placeholder="确认登录密码" name="password2" type="password" id="password2" maxlength="16" autocomplete="off">
+					<span class="star float_left">＊</span>
+					<span class="color_hong hint float_left" id="CheckPassWord2"></span> 
+					<span class="error_hint placeHoderTip hide">确认登录密码</span>
+				</div>
+				<div class="clearFix list_cont2 list_cont3 marBottom_20" style="min-width:600px">
+					<input type="text" class="float_left" placeholder="请输入验证码" id="valiteWrite" maxlength="4">
+					<span class="float_left img_checkcode"><img src="./用户注册_files/getPicValidate.a" id="checkCode"></span>
+					<span class="star float_left">＊</span>
+					<span class="color_hong hint float_left" id="CheckValiteWrite"></span> 
+					<span class="error_hint placeHoderTip hide">请输入验证码</span> 
+				</div>
+				<div class="clearFix list_cont2 marBottom_20">
+					<input type="text" class="float_left input1" placeholder="请输入短信验证码" id="validateSMS" maxlength="4">
+					<a href="javascript:void(0);" class="gainTest float_left regBtns" btntype="btnSendSms" id="btnSendSms">获取短信验证码</a>
+					<span class="star float_left">＊</span>
+					<span class="color_hong hint float_left" id="CheckValiteSMS"></span> 
+					<span class="error_hint placeHoderTip hide">请输入短信验证码</span>
+				</div>
+				<div class="list_cont4">
+					<input type="checkbox" name="btnAgree" checked="checked">
+					<span class="color_hui">我已阅读并接受</span>
+					<span class="colorlan regBtns" btntype="btnViewTradeProtocol">《商品通服务协议》</span> 
+				</div>
+		</div>
+		<div class="list_bot">
+			<a href="javascript:void(0);" class="regBtns" btntype="doSumitReg">下一步</a>
+		</div>
+	 </div>
+	 </form>
+	 
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/verificationMode.js.下载">
+</script>
+
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/reg_index.js.下载">
+</script>
+
+
+			<div class="Client float_right" id="reg_right">
+				<div class="client">
+					<p class="colorlan">商品通在线客户端</p>
+					<div class="client_erweima">
+						<span class="color_hei">扫一扫，立即下载</span>
+					</div>
+					<div class="download" downtype="ios" url="https://itunes.apple.com/cn/app/shang-pin-tong/id1056516708?mt=8">
+						<i class="float_left iOS"></i> <span class="float_left iOS2">IOS</span> <span class="float_left">下载</span>
+					</div>
+					<div class="download" downtype="android" url="http://spt-public.oss-cn-shanghai.aliyuncs.com/spt.apk">
+						<i class="float_left android"></i> <span class="float_left android2">Android</span> <span class="float_left">下载</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 内容结束 -->
+	<!-----尾部 S---->
+	<div class="width_100 footer">
+		<div class="width_854">
+			<ul class="ul1 clearFix">
+				 <li><a href="http://www.totrade.cn/fwd/a/ent_intro/">关于我们</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/legal_state/">法律声明</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/contact_us/">联系我们</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/recruit/">诚聘英才</a></li>
+				<li>&nbsp;&nbsp;佰所仟讯（上海）电子商务有限公司</li>
+				<li>版权所有</li>
+				<li>http://www.totrade.cn&nbsp;&nbsp;沪ICP备14033272号</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 尾部结束 -->
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/sptUtility.js.下载">
+</script>
+
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="./用户注册_files/reg_map.js.下载">
+</script>
+
+
+</body></html>

@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<html>
+<head>
+<title>welcome!</title>
+<style type="text/css">
+.d1{   
+            position: absolute;   
+            top: 30%;   
+            left: 40%;   
+        }   
+</style>
+<meta http-equiv="refresh" content="3;url={{ comeurl }}">
+</head>
+
+<body>
+<div class="d1">
+<h1>欢迎来到商品通</h1>
+<dl>
+	<dt>正在转到  {{ comeurl }}</dt>
+	<dt>请稍等...</dt>
+</dl>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+{% load staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0071)http://cas.totrade.cn/cas/login?service=http://www.totrade.cn/zone/hg.a -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>商品通--用户登录</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+<script type="text/javascript" src="{% static 'js/jquery-1.8.3.min.js' %}" charset="utf-8"></script>
+<script type="text/javascript" src="{% static 'js/verificationMode.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.cookie.js' %}" charset="utf-8"></script>
+<script type="text/javascript" src="{% static 'js/common_rosters.js' %}"></script>
+</head>
+<body>
+	<!-----页头 S---->
+	<div class="width_100 header">
+		<div class="width_1200 marginAuto clearFix">
+			<div class="logo float_left loginBtns" btntype="btnToHome">
+				<img src="{% static 'images/new_logo.png' %}">
+			</div>
+			<div class="float_left header1"></div>
+			<div class="float_left header2">登录</div>
+		</div>
+	</div>
+	<input type="hidden" id="tag" value="">
+	<input type="hidden" id="forward" value="">
+	<form id="fm1" class="fm-v clearfix" action="/trade/login/" method="post" >
+	{% csrf_token %}
+		<!-----登陆界面 S---->
+		<div class="width_100 content">
+			<div class="width_1000 marginAuto clearFix">
+				<div class="content_logo float_left">
+					<img src="{% static 'images/banner.png' %}">
+				</div>
+				<div class="float_right login clearFix">
+					<div class="float_left loginLeft">
+						<p>登录商品通</p>
+						<div class="user">
+							<input type="text" class="input1" placeholder="请输入用户名" id="username" name="username" size="25" tabindex="1" accesskey="" autocomplete="false"> <i></i> 
+								<!-- 这个提示仅在不支持placeholder 下使用，功能代替 placehoder 工作 -->
+								<span class="user_span placeHoderTip hide">请输入用户名</span> 
+								<span class="use_hint">&nbsp;<span id="checkUserName" class="msg_o" style="display:&#39;&#39;">用户名输入错误</span></span>
+						</div>
+						<div class="password">
+							<input type="password" id="password" name="password" class="input2" placeholder="请输入密码"> <i></i>
+							 <span class="password_span placeHoderTip hide">请输入密码</span>
+							 <span class="password_hint">&nbsp;<span id="checkPassword" class="msg_o"></span></span>
+						</div>
+
+						<div class="clearFix loginLeft1" style="width: 294px;">
+							<div class="float_left">
+								<input type="checkbox" class="checkbox" id="remember_password"> <span class="color_hui">记住密码</span>
+							</div>
+							<div class="float_right">
+								<a href="javascript:void(0);" class="loginBtns" btntype="btnForgetPsw">忘记密码？</a>
+							</div>
+						</div>
+						<div style="height: 15px">
+							&nbsp;
+							
+						</div>
+						<input type="hidden" name="lt" value="e1s1"> 
+						<input type="hidden" name="_eventId" value="submit">
+						<input class="loginLeft2" type="submit" name="submit" accesskey="l" value="登录" >
+						<div class="loginLeft3">
+							<span class="color_hui">没有商品通账户？</span> <span class="colorlan loginBtns" btntype="btnToRegister">立即免费注册&gt;&gt;</span>
+						</div>
+					</div>
+					<div class="float_right loginRight">
+						<div class="erweima">
+							<img src="{% static 'images/qrimg.png' %}" alt="">
+						</div>
+						<span class="color_hui">扫一扫</span><br> <span class="color_hui">立即下载商品通APP</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<!-----尾部 S---->
+	<div class="width_100 footer">
+		<div class="width_854">
+			<ul class="ul1 clearFix">
+				<li><a href="{% url 'trade:aboutus' %}">关于我们</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/legal_state/">法律声明</a></li>
+				<li>|</li>
+				<li><a href="http://www.totrade.cn/fwd/a/contact_us/">联系我们</a></li>
+				<li>|</li>
+				<li><a href="{% url 'trade:recruit' %}">诚聘英才</a></li>
+				<li>&nbsp;&nbsp;佰所仟讯（上海）电子商务有限公司</li>
+				<li>版权所有</li>
+				<li>http://www.totrade.cn&nbsp;&nbsp;沪ICP备14033272号</li>
+			</ul>
+		</div>
+	</div>
+	<script src="{% static 'js/cas_login.js' %}"></script>
+	<script>
+	$(function() {
+		var serverName = 'http://www.totrade.cn';
+		cas_login_methods.initData();
+		cas_login_methods.bindEvent(serverName);	
+		// 如果不支持 placehoder
+		cas_login_methods.initPlacehoder();
+	});
+	
+	
+	</script>
+
+
+
+
+</body></html>

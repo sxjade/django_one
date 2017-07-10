@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{margin:0;padding:0;font-size: 12px;font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;}
+img,input,select,textarea{ vertical-align:middle; }
+ul{list-style: none;}
+.float_left{float:left;}
+.float_right{float:right;}
+.clearFix:after{ content:""; display:block; clear:both; }
+a{text-decoration: none;}
+.colorLan{color: #20aae9!important;}
+.width_100{width:100%;}
+.width_1000{width:1000px;}
+.marginAuto{margin:0 auto;}
+.align_center{text-align:center;}
+.color_danhei{color:#333333;}
+/*-----头部 CSS  S-----*/
+.aboutSpt_header{position: fixed;top: 0;height: 80px;z-index: 9999;background: #fff;border-top: 2px solid #20aae9;}
+.logo{height: 52px;width: 127px;padding-top: 14px;cursor:pointer;}
+.logo img{width: 100%;height: 100%;}
+.headerTit ul{height: 66px;}
+.headerTit ul li{height: 100%;width: 80px;font-size: 16px;color: #3b3b43;line-height: 66px;text-align: center;cursor: pointer;}
+.li_active{border-bottom: 2px solid #20aae9;color: #20aae9!important;}
+.margin_45{margin-right: 45px;}
+.margin_215{margin-right: 215px;}
+/*-----广告 CSS  S-----*/
+.news_banner{margin-top: 80px;height: 200px;background: url(../images/aboutSpt.png) no-repeat;background-size: 100% 100%;}
+.news_banner ul{width: 700px;}
+.news_banner ul li{ height: 155px;width: 90px;text-align: center;padding-top: 45px;cursor: pointer;}
+.news_banner .spanNew{margin-top: 12px;display: inline-block;font-size: 16px;}
+.li_on{background: url(../images/trigon_on.png) no-repeat center bottom;}
+/*-----发展历程 CSS  S-----*/
+.aboutSpt{margin:50px auto 150px;}
+.develop_left span,.truss_left span,.companyPro_left span,.legal_left span{font-size: 50px;color: #3b3b43;font-weight: 300;} 
+.dedevelop_right{width: 960px;height: 980px;}
+.dedevelop_right img{width: 100%;height: 100%;}
+/*-----组织构架 CSS  S-----*/
+.truss_left{width: 200px;padding-left: 40px;}
+
+.truss_right{width: 760px;height: 860px;}
+.dedevelop_right img{width: 100%;height: 100%;}
+/*-----企业介绍 CSS  S-----*/
+.companyPro_left,.legal_left{width: 200px;padding-left: 40px;}
+.companyPros_right,.legal_right{width: 660px;padding-right: 40px}
+.companyPros_right p,.legal_right p{text-indent: 25px;line-height: 22px;font-size: 13px;color: #878787;}
+.companyPros_right .last_p{text-align: right;margin-top: 40px;}
+
+/*-----法律声明 CSS  S-----*/
+.legal_banner{margin-top: 80px;height: 200px;background: url(../images/legal_banner.png) no-repeat;background-size: 100% 100%;}
+.p_tit,.p_tit2{color: #3b3b43!important;font-weight: bold;}
+.p_tit2{font-size: 14px;}
+.p_tit{font-size: 15px;}
+/*-----尾部 CSS -----*/
+.footer{height: 36px;border-top: 1px solid #e5e5e5;background: #f5f5f5;position: fixed;bottom: 0;z-index: 9999;}
+.ul1{width: 540px;height: 36px;line-height: 36px;}
+.ul1 li{margin-right: 20px;color: #878787;}
+
+/*-----分页 CSS -----*/
+.paging{width:100%;margin:30px auto;}
+.paging a{background-color: #20aae9;padding: 10px 20px;border-radius: 2px;color: #fff !important;margin: 0 5px;}
+.paging select{height: 30px;margin: 0 5px;width: 60px;}
+.paging a:hover{opacity: 0.8;filter: alpha(opacity=80);}
+/*-----分页 CSS  E-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

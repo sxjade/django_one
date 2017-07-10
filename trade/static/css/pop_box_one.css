@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+.preview{background:#f5f5f5;}
+.previewTit{height: 50px;font-size: 13px;color: #3b3b43;line-height: 50px;}
+.previewTit span.color_lanse{color: #20aae9; cursor:pointer;}
+
+.previewCont1{width: 740px;background:#fff;box-shadow: 5px 5px 3px 3px #e5e5e5;margin-bottom: 100px;padding-left: 45px;font-size: 14px;}
+.preview_cont .preview_tit{width: 100%;height: 50px;line-height: 50px;}
+.preview_cont .preview_tit h2{font-size: 24px;}
+.preview_cont {border-left: 1px solid #e5e5e5;border-top: 1px solid #e5e5e5;width: 686px;}
+
+.li_1,.li_2,.li_3{border-bottom: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; height:39px;line-height: 39px;}
+.li_1{width: 115px;color: #c3c3c3;text-align: right;padding-right: 30px;}
+.li_2{width: 196px;}
+.li_2 .bank{width: 15px;height:15px;font-size: 11px;color: #ffd5b8;display:inline-block;line-height: 15px;text-align: center;text-indent: 0;border-radius: 2px;margin: 3px;}
+.li_2 .bank1{background: #ff6501;cursor:pointer;}
+.li_2 .bank2{background: #ca151a;cursor:pointer;}
+.li_3{width: 539px;}
+.li_2,.li_3{text-indent: 30px;color: #3b3b43;background:#fbfbfb;}
+.color_hong{color: #dc7a79!important;}
+.color_lanse{color: #20aae9!important;cursor:pointer;}
+.preview_bot{margin:30px auto 40px;height: 38px;width: 480px;}
+.preview_bot span{text-align: center;height: 36px;width: 138px;line-height: 36px;font-size:13px;border-radius: 2px;}
+.preview_bot .but1{background: #20aae9;color: #fff;border:1px solid #20aae9;cursor: pointer;margin-right: 30px;}
+.preview_bot .but2{border:1px solid #ff9501;color: #ff9501;background: #fff;cursor: pointer;}
+
+.preview_cont2{width: 592px;margin-top:20px;}
+.preview_cont2 input{margin-bottom: 10px;}
+/*---  新增信息详情 S  ---*/
+div.copy_content{margin:20px 0 !important;width: 686px!important;}
+div.copy_inform{width: 588px;border:1px solid #e5e5e5;padding:5px 10px;font-size: 12px;}
+.informUrl{color:#3b3b43;margin:8px auto;}
+.informDiv span{margin-right: 12px;line-height: 24px;color: #878787;}
+.global-zeroclipboard-html-bridge{cursor:pointer;}
+.copy{display: inline-block;padding:10px 15px;background:#20aae9;color: #fff;font-size: 14px;border-radius: 3px;margin-top:20px;}
+.copy_off{background: #878787;color : #fff;}
+.preview_span{color: #3b3b43;font-size: 12px;margin-right: 55px;margin-top: 30px;} 
+.previewCont1 .preview_tit span.color1{color: #878787!important;} 
+
+/*---  右侧企业信息 S  ---*/
+.previewCont2{width: 390px;height:430px;background:#fff;border-radius: 3px;}
+.previewCont2_tit{width: 100%;height: 50px;line-height: 50px;background:#20aae9;color: #fff;text-indent: 20px;margin:0;}
+.companyInfo{width: 340px;margin:0 auto;color: #3b3b43;}
+.companyInfo_tit{width: 100%;border-bottom: 1px solid #e5e5e5;height: 54px;line-height: 54px;margin-bottom: 0px;position: relative;}
+.companyName{font-size: 15px;margin-left: 40px;}
+.companyInfo_tit .span1{font-size: 12px;color: #20aae9; cursor:pointer;text-decoration: underline;margin-left: 70px;}
+.companyCont{width: 100%;height: 44px;line-height: 44px;font-size: 14px;}
+.companyCont span{line-height: 65px;height:40px;}
+.company_span2{width: 270px;text-align: right;color: #878787;display: inline-block;font-size: 13px;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.displayNone{display: none;}
+.companyInfo .span2{display: block;font-size:11px;border:1px solid #ff9500;color: #ff9500;border-radius: 3px;width: 46px;height: 20px;text-align: center;line-height: 20px;margin-right: 10px;margin-top: 30px;}
+/*---  按钮hover    S  ---*/
+.preview_bot span:hover{opacity: 0.8;filter: alpha(opacity=80);}
+#memo{width:493;height:40px;overflow:auto;}
+li.c_backGColor{background:#fbfbfb !important;}
+.link{cursor:pointer;}
+.hide{display:none;!important}
+/*新加企业等级标签*/
+.companyInfo_tit i{width: 26px;height: 26px;display: inline-block;position: absolute;top: 13px;left:0;}
+.companyInfo_tit .level_1{background: url(../images/diamonds.png) center center no-repeat;}
+.companyInfo_tit .level_2{background: url(../images/imperial.png) center center no-repeat;}
+.companyInfo_tit .level_3{background: url(../images/star.png) center center no-repeat;}
+.companyInfo_tit .level_4{background: url(../images/flower.png) center center no-repeat;}
+.companyInfo_tit .level_5{background: url(../images/refigerate.png) center center no-repeat;}
+.companyInfo_tit .level_6{background: url(../images/freeze.png) center center no-repeat;}
+.companyInfo_tit .level_99{background: url(../images/blacklist.png) center center no-repeat;}
+
+.width_100{width:100%;}
+.chatPop{width: 460px;background: #fff;margin-top: 30px;border-radius: 8px;font-size: 13px;}
+.marginAuto{margin:0 auto;}
+.viewPop{width: 340px;}
+.chatPop .chatTit{margin-bottom: 10px;background: #d1edfb;height: 50px;border-radius: 8px 8px 0 0;text-align: center;line-height: 50px;position: relative;}
+.float_right{float:right;}
+.float_left{float:left;}
+.viewBot p{line-height: 25px;text-align: center;width: 270px;font-weight: bold;}
+.viewBot .viewButton{width: 240px;margin:22px auto 0;}
+.viewBot .viewButton a{width: 108px;height: 30px;line-height: 30px;border-radius: 20px;display: inline-block;color: #3b3b43;text-align: center;border:1px solid #bcdff1;}
+.viewBot .backGrond{background: #d1edfb;}
+.colorHong{color: #d94949!important;font-weight: bold;}
+.layui-layer-cus {position:fixed;_position:absolute;pointer-events:auto;top:150px;left:50%;margin:0;padding:0;-webkit-background-clip:content;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:.3s;animation-duration:.3s}
+.clearFix:after{ content:""; display:block; clear:both; }
+
+.width_100{width:100%;}
+.chatPop{width: 460px;background: #fff;margin-top: 30px;border-radius: 8px;font-size: 13px;}
+.marginAuto{margin:0 auto;}
+.viewPop{width: 340px;}
+.chatPop .chatTit{margin-bottom: 10px;background: #d1edfb;height: 50px;border-radius: 8px 8px 0 0;text-align: center;line-height: 50px;position: relative;}
+.float_right{float:right;}
+.float_left{float:left;}
+.viewBot p{line-height: 25px;text-align: center;width: 270px;font-weight: bold;}
+.viewBot .viewButton{width: 240px;margin:22px auto 0;}
+.viewBot .viewButton a{width: 108px;height: 30px;line-height: 30px;border-radius: 20px;display: inline-block;color: #3b3b43;text-align: center;border:1px solid #bcdff1;}
+.viewBot .backGrond{background: #d1edfb;}
+.colorHong{color: #d94949!important;font-weight: bold;}
+.layui-layer-cus {position:fixed;_position:absolute;pointer-events:auto;top:150px;left:50%;margin:0;padding:0;-webkit-background-clip:content;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:.3s;animation-duration:.3s}
+.clearFix:after{ content:""; display:block; clear:both; }

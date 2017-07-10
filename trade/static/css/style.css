@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* 选择器格式为：html #layui_layer_skin文件夹名stylecss,这一点非常重要 */
+body .layui-layer .layui-layer-title{background: #20aae9;font-size: 17px;color: #fff;font-weight: bold;}
+body .layui-layer .layui-layer-close1{background-position:-130px -40px;}
+
+body .zone-layer-buy .layui-layer-title{background: #d23637;}
+body .zone-layer-sell .layui-layer-title{background: #3bb560;}

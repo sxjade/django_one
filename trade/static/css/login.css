@@ -1,0 +1,84 @@
+/*--公共 CSS  S--*/
+@charset "utf-8";
+body{margin:0;padding:0;font-size: 12px;font-family:"Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "Î¢ÈíÑÅºÚ", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;}
+img,input,select,textarea{ vertical-align:middle; }
+a{text-decoration:none;cursor: pointer;}
+.width_100{width:100%;}
+.width_1200{width:1200px;}
+.height_100{height:100%;}
+.float_left{float:left;}
+.float_right{float:right;}
+.clearFix:after{ content:""; display:block; clear:both; }
+.marginAuto{margin:0 auto;}
+.width_1000{width: 1020px;margin-top: 96px;}
+.colorlan{color: #20aae9;}
+.color_hui{color:#686969;}
+.msg_o{color: #dc4747; margin: -1px; display: inline-block;}
+/*--header CSS  S--*/
+.header{height: 96px;box-shadow: 0 0 10px rgba(0,0,0,0.3);position: fixed;z-index: 1001;top: 0;background: #fff;}
+.logo{cursor: pointer;margin-top: 10px;}
+.header1{width: 1px;height: 56px;background: #e5e5e5;margin:28px 15px 0; }
+.header2{font-size: 24px;line-height: 86px;margin-top: 10px;color: #3b3a40;}
+/*--content CSS  S--*/
+.content{background: #20aae9;height: 450px;}
+.content_logo{margin-top: 10px;}
+.login{width: 500px;height: 310px;background: #fff;margin-top: 50px;}
+.hide{display:none}
+
+.loginLeft{width: 290px;height: 100%;margin-left: 30px;}
+.loginLeft p{font-size: 17px; font-weight: bolder;margin-top: 15px;}
+.loginLeft .input1,.loginLeft .input2{width: 240px;height: 33px;line-height: 33px;border:1px solid #e5e5e5;padding-left: 48px;}
+input::-webkit-input-placeholder{color: #ccc; font-size: 14px;}
+input:-moz-placeholder{color: #ccc; font-size: 14px;}
+input::-moz-placeholder{color: #ccc; font-size: 14px;}
+input:-ms-input-placeholder{color: #ccc; font-size: 14px;}
+.user,.password{position: relative;}
+.user i,.password i{position: absolute;height: 20px;}
+.user i{width: 21px;background: url("../images/user.png");left: 9px;top: 8px;}
+.password i{width: 18px;background: url("../images/password.png");left: 10px;top: 8px;}
+.user_span,.password_span{position: absolute;top: 11px;left: 45px;color: #999;font-size: 14px;}
+.password_hint,.use_hint,.login_hint{color: #dc4747;margin:3px;display: inline-block;height:15px;}
+.loginLeft1{width: 294px}
+.loginLeft1 a{color: #20aae9;}
+.loginLeft1 .checkbox{margin-top: -1px;}
+.loginLeft2{display: inline-block;width: 290px;height: 35px;background: #20aae9;color: #fff;font-size: 14px;line-height: 35px;text-align: center;margin: 12px 0 15px;border-style:none;}
+.loginLeft2:hover{opacity: 0.8;filter:alpha(opacity=80);cursor: pointer;}
+.loginLeft3{text-align:center;font-size: 14px;}
+.loginLeft3 span{cursor: pointer;}
+.loginRight{width: 150px;border-left: 1px solid #e5e5e5;height: 100%;text-align: center;}
+.erweima{width: 109px;height:115px;border: 1px solid #e5e5e5; margin:74px auto 10px;}
+.erweima img{width: 89px; height: 95px;margin-top: 10px;}
+.loginRight span{font-size: 11px;}
+/*--footer CSS  S--*/
+.width_854{width:900px;margin:0 auto;height: 100%;}
+.footer{height:42px;}
+.footer .ul1{width:900px; overflow:hidden; height:100%;}
+.footer ul li{color:#878787; float:left; margin-right:16px; height:100%; line-height:42px; font-size:12px;list-style: none;}
+.footer ul li a{color:#878787;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

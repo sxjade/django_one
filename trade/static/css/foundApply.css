@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*产品选择区CSS Document */
+body{background: #f5f5f5!important;}
+.colorLan{color: #20aae9!important;}
+.colorhui{color: #878787!important;}
+.colorhei{color: #3b3b43!important;}
+.colorhong{color: #d23637!important;font-weight: bold;}
+.colorhuang{color: #ff9501!important;}
+.navigationNew{background: #eee;}
+.cursor{cursor: pointer;}
+.navigationNew .product_change{padding-top: 20px;padding-bottom: 20px;margin: 0px auto;}
+.borderBot{border-bottom: 1px solid #e5e5e5; }
+.backgroundColor{background: #fff;}
+.product_change1{  width: 100%; background: #fff;}
+.borderBot_tit{height: 40px;line-height: 40px;font-size: 13px;}
+.product_change1 .borderBot_tit{color: #7f7f81;width: 84px;text-align: right;}
+.product_change_div a{ padding:0 8px; color: #b6b6b6;margin-left: 16px;float: left;}
+.product_change_div{width: 900px; overflow: hidden;}
+.product_more{ float:right; border:1px solid #e5e5e5;text-align:center;margin-right:50px; cursor:pointer; color:#b6b6b6;padding:2px 6px;margin-top: 9px;border-radius: 2px;}
+.product_change_div a{height: 22px;line-height: 22px;margin-top: 11px;}
+
+.on{background:#83cff3; color:#fff!important; border-radius:2px;}
+/* 实时挂单列表CSS Document */
+.listingNew{background: #f5f5f5;padding-top: 20px;margin-bottom: 10px;}
+.listTit{margin:0 auto;height: 24px;font-size: 13px;color: #878787;}
+.listTit span{margin-right: 5px;}
+
+.foundApply{background: #fff;margin:10px auto 100px;padding-bottom: 1px;}
+.p1{margin-left: 50px;color: #3b3b43;font-size: 15px;margin-bottom: 30px;}
+.input_div{height: 35px;line-height: 35px;margin-bottom: 15px;position: relative;}
+.input_div span{width: 168px;text-align: right;color: #878787;font-size: 12px;}
+.input_div input,.input_div select{height: 33px;border: 1px solid #e5e5e5;border-radius: 3px;text-indent: 5px;color:#3b3b43;}
+.application,.generalize{width: 599px;height: 815px;}
+.application{background: #fbfbfb;}
+.input_div .input1,.input_div select{width: 358px;}
+.input_div .input2{width: 248px;}
+.input_div .span2{display: block;width: 100px;height: 35px;text-align: center;line-height: 35px;background: #20aae9;color: #fff;margin-left: 10px;border-radius: 3px;cursor: pointer;}
+.input_div .span2:hover,.send:hover{opacity: 0.8;}
+.spanBot{font-size: 11px!important;color: #3b3b43;position: absolute;line-height: 20px!important; width: 355px!important;bottom: -23px;left: 168px;text-align: left;height: 20px;}
+ 
+.border1{width: 1px;background: #e5e5e5;height: 815px;}
+.send{width: 960px;height: 35px;line-height: 35px;text-align:center;background: #20aae9;color: #fff;font-size: 13px;margin: 30px auto;display: block;cursor: pointer;}
+
+/* 核心供应商申请 Document */
+.applyTit{width: 1160px;height: 35px;line-height: 35px;color: #3b3b43;font-size: 15px;border-bottom: 1px solid #e5e5e5;padding-top: 10px;}
+.applyCont{width: 1160px;padding-top: 30px;padding-bottom: 20px;}
+.applyCont span{margin-left: 10px;}
+.applyCont .input2{width: 786px;}
+.applyCont .spanBot{left: 178px;}
+.paddingB30{padding-bottom: 30px;}
+.hint{position: absolute;top: 0;left: 544px;display: inline-block;width: 60px;font-style: normal;color: #d23637;font-size: 11px;}
+/*--申请提交成功 CSS  S--*/
+.regist_complete{height: 520px;background: #fff;margin:10px auto 50px;}
+.registSucceed{width: 605px;height: 500px;margin-top: 50px;margin-left: 200px;}
+.registSucceed_top{margin:0 auto;width: 445px;}
+i.succeed_regist{width: 50px;height: 50px;margin-top: 4px;background: url("../images/succeed_regist.png") no-repeat;margin-right: 10px;}
+.fail i.succeed_regist{background: url("../images/fail.png") no-repeat;}
+.registSucceed_top .succeed_span1{font-size: 28px;color: #20aae9;}
+.fail .succeed_span1{color: #d23637!important;}
+.registSucceed .p{font-size: 15px;margin:50px auto;width: 190px;}
+.applyAgain{width: 100px;margin-left: 140px;margin-top: 15px}
+.applyAgain span{padding: 5px;font-size: 11px;color: #fff;background: #ff9501;border-radius: 3px;cursor: pointer;}
+/*--content right CSS  S--*/
+.Client{width: 345px;height: 100%;background:#fbfbfb;}
+.client{width: 215px;margin:40px 65px;text-align: center;}
+.client p{font-size: 18px;margin-top:0px;margin-bottom: 20px;font-weight: bolder;}
+.client_erweima{position:relative;background: url("../images/ipone.png") no-repeat;width: 213px;height: 292px;}
+.client_erweima span{font-size: 12px;position: absolute;top: 250px;left: 60px;}
+.download{width: 130px;height: 33px;border:1px solid #20aae9;line-height: 35px;color: #20aae9;margin: 10px auto;border-radius: 2px;cursor: pointer;}
+.download i{width: 16px;margin-top: 6px;margin-left: 12px;}
+.download .iOS{height: 20px;background: url("../images/iOS.png") no-repeat;}
+.download .android{height: 18px;background: url("../images/android.png") no-repeat;}
+.download .iOS2{margin-left: 20px;margin-right: 5px;}
+.download .android2{margin-left: 7px;margin-right: 5px;}
+.download:hover{opacity: 0.8;filter:alpha(opacity=80);}

@@ -1,0 +1,173 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.totrade.cn/fwd/a/recruit/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>招贤纳士</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="keywords" content="商品通,工业原料提供平台,商品通--领先的工业原材料综合电商平台,基础化工,通用塑料,铁矿石,化学纤维">
+<meta name="description" content="商品通工业原料缩合电商平台，主要提供包括基础化工,通用塑料,铁矿石,化学纤维原料交易">
+<link rel="shortcut icon" href="{% static 'images/pagetitle.ico' %}" type="image/x-icon" style="height:36px;width:36px">
+<link type="text/css" rel="stylesheet" id="aboutSpt" href="{% static 'css/aboutSpt.css' %}">
+
+<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/jquery-1.9.1.min.js' %}">
+</script>
+
+
+
+
+<meta name="decorator" content="about">
+<link type="text/css" rel="stylesheet" href="{% static 'css/contactSpt.css' %}">
+
+
+</head>
+
+<body>
+	<div class="container">
+		
+
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+
+
+
+
+
+
+
+<!-----页头 S---->
+<div class="aboutSpt_header width_100">
+	<div class="width_1000 marginAuto clearFix">
+		<div class="logo float_left">
+			<img src="{% static 'images/new_logo_o.png' %}" alt="">
+		</div>
+		<div class="headerTit float_right">
+			<ul class="clearFix about_menus">
+				<li class="float_left margin_45 cursor" menu="ent_intro,deve_his,org_frame" url="{% url 'trade:aboutus' %}">关于我们</li>
+				<li class="float_left margin_45 cursor" menu="nv" url="{% url 'trade:news' %}">公司动态</li>
+				<li class="float_left margin_45 cursor li_active" menu="recruit" url="{% url 'trade:recruit' %}">招贤纳士</li>
+				<li class="float_left margin_45 cursor" menu="contact_us" url="/fwd/a/contact_us/">联系我们</li>
+				<li class="float_left cursor" menu="legal_state" url="/fwd/a/legal_state/">法律声明</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!-- 企业介绍、发展历程、组织构架显示子菜单 -->
+
+		<div id="content">
+			
+	<!-----职位 S---->
+	<div class="width_100 station_banner marginAuto ">
+		<div class="width_1000 marginAuto">
+			<div class="station width_100 clearFix">
+				<div class="prev float_left disabled"></div>
+				<div id="content_list" class="float_left ">
+					<ul class="clearFix station_ul">
+						<li class="float_left " position="web_e">
+						<a href="{% url 'trade:recruit' %}">
+							<p>Web前端工程师</p>
+							</a>
+						</li>
+						<li class="float_left active_p" position="tester_e">
+						<a href="{% url 'trade:tester' %}">
+							<p class="marginTop">测试工程师</p>
+							</a>
+						</li>
+						<li class="float_left" position="ios_e">
+							<p>IOS开发工程师</p>
+						</li>
+						<li class="float_left" position="android_e">
+							<p>Android开发工程师</p>
+						</li>
+						<li class="float_left" position="ui_e">
+							<p class="marginTop">UI设计</p>
+						</li>
+						<li class="float_left" position="market_d">
+							<p class="marginTop">市场经理</p>
+						</li>
+						<li class="float_left " position="web_serv_e">
+							<p class="marginTop">Web后端工程师</p>
+						</li>
+						<li class="float_left " position="bus_d">
+							<p>商务拓展经理</p>
+						</li>
+						<li class="float_left " position="oper_e">
+							<p class="marginTop">运维工程师</p>
+						</li>
+						<li class="float_left " position="market_s">
+							<p class="marginTop">市场专员</p>
+						</li>
+					</ul>
+				</div>
+				<div class="next float_right"></div>
+			</div>
+			<div class="station_cont width_1000 marginAuto" id="station_cont">
+				<div class="stationCon">
+					<h2 class="stationCon1">职位描述：</h2>
+					<div class="stationCon2">
+						<p>{{ test.description }}</p>
+						
+					</div>
+					<h2 class="stationCon1">任职要求：</h2>
+					<div class="stationCon2">
+						<p>{{ test.ask }}</p>
+						
+					</div>
+					<a href="mailto:wangwei@autrade.com.cn" class="stationCon3">发送简历</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-----内容 S---->
+	<div class="width_1000 marginAuto">
+		<div class="welfare width_100">
+			<h2>福利待遇</h2>
+			<p>1、正常的做五休二工作制，享受法定的节假日和带薪年假。</p>
+			<p>2、一流的办公环境+五险一金+年终奖+期权。</p>
+			<p>3、每天一小时的下午茶+每月一次员工生日会+每年一次旅游。</p>
+		</div>
+	</div>
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/recruit.js' %}">
+</script>
+
+
+		</div>
+		<!-----页脚 S---->
+		<div class="footer width_100">
+			<div class="width_100">
+				<ul class="ul1 clearFix marginAuto">
+					<li class="float_left">佰所仟讯（上海）电子商务有限公司</li>
+					<li class="float_left">版权所有</li>
+					<li class="float_left">http://www.totrade.cn&nbsp;&nbsp;沪ICP备14033272号</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 左侧菜单栏 start-->
+	<div class="prompt" style="display: none;">
+		<div class="erweima_back1">
+			<i class="erweima_back"></i>
+			<p class="erweima_back2"></p>
+		</div>
+		<div class="feedback1">
+			<i class="feedback"></i>
+			<p class="feedback2"></p>
+		</div>
+		<div class="back_under1">
+			<i class="back_under"></i>
+			<p class="back_under2"></p>
+		</div>
+		<!-- 左侧菜单栏  end-->
+	</div>
+	<script type="text/javascript">
+	_ctx = '';
+	var _menu = "recruit";
+	</script>
+	<script type="text/javascript" language="Javascript" charset="utf-8" src="{% static 'js/about_index.js' %}">
+</script>
+
+
+</body></html>
